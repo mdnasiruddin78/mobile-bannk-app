@@ -6,7 +6,7 @@ document.getElementById('btn-cash-out').addEventListener('click',function(event)
     const pinNumber = getInputFieldValueById('input-cash-out-pin-number')
 
     if(isNaN(castout)){
-        alert('input pin not number')
+        alert('input not number')
         return;
     }
 
@@ -30,6 +30,6 @@ document.getElementById('btn-cash-out').addEventListener('click',function(event)
         document.getElementById('trangection-container').appendChild(div);
     }
     else{
-        alert('invalid input')
+        alert('invalid pin')
     }
 })

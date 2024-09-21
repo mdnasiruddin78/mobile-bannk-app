@@ -7,7 +7,7 @@ document.getElementById('btn-add-money').addEventListener('click',function(event
     const pinNumber = getInputFieldValueById('input-pin-number')
 
     if(isNaN(addMoney)){
-        alert('input not number')
+        alert('input amount not number')
         return;
     }
     
